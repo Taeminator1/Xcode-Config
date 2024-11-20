@@ -1,0 +1,18 @@
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+// folders
+Capabilities
+FontAndColorThemes
+IB Support
+Previews
+Provisioning\ Profiles
+XcodeCloud
+
+// extensions
+*.xcuserstate
+
+// files
+IDEEditorInteractivityHistory
