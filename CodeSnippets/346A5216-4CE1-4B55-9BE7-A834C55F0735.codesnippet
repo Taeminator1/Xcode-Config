@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>propertyWrapper</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@propertyWrapper
+struct &lt;#type name#&gt; {
+    // optional
+    private(set) var projectedValue: &lt;#projectedValue type#&gt;
+    
+    var wrappedValue: &lt;#wrappedValue type#&gt; {
+        willSet { &lt;#...#&gt; }
+        didSet { &lt;#...#&gt; }
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>346A5216-4CE1-4B55-9BE7-A834C55F0735</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Property Observers</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Property Wrapper</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
